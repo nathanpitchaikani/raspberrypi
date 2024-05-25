@@ -1,6 +1,7 @@
 import machine
 import time
 
+#configure LED Pin as an output pin
 led = machine.Pin('LED', machine.Pin.OUT)
 
 while True:
